@@ -11,7 +11,7 @@ Shader "Graph/PointSurface"
 
         CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
-        #pragma surface surf Standard fullforwardshadows
+        #pragma surface ConfigureShape Standard fullforwardshadows
 
         // Use shader model 3.0 target, to get nicer looking lighting
         #pragma target 3.0
@@ -27,19 +27,7 @@ Shader "Graph/PointSurface"
         void ConfigureShape(Input input,inout SurfaceOutputStandard surface)
         {
             surface.Albedo = input.worldPos * 0.5 + 0.5;
-           surface.Smoothness = _Smoothness;
-        }
-
-        // Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
-        // See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
-        // #pragma instancing_options assumeuniformscaling
-        UNITY_INSTANCING_BUFFER_START(Props)
-            // put more per-instance properties here
-        UNITY_INSTANCING_BUFFER_END(Props)
-
-        void surf (Input IN, inout SurfaceOutputStandard o)
-        {
-            
+            surface.Smoothness = _Smoothness;
         }
         ENDCG
     }
