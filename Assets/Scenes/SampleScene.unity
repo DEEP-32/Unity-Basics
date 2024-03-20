@@ -592,9 +592,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db40de0d865964647b13073b9d194071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  depth: 4
+  depth: 8
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-  material: {fileID: 2100000, guid: 1faa7c8503cd7a348bcafb6dd7f9c771, type: 2}
+  material: {fileID: 2100000, guid: 636d62350a4fb1547b46b8b4961594c8, type: 2}
 --- !u!1 &1184038116
 GameObject:
   m_ObjectHideFlags: 0
