@@ -594,7 +594,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   depth: 8
   mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  leafMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 636d62350a4fb1547b46b8b4961594c8, type: 2}
+  gradientA:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 0.5754717, g: 0.32954365, b: 0, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65342
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  gradientB:
+    serializedVersion: 2
+    key0: {r: 0.07631719, g: 0.12558691, b: 0.46226418, a: 1}
+    key1: {r: 0.20594516, g: 0.49056602, b: 0.20951548, a: 1}
+    key2: {r: 0.3281862, g: 0.4528302, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 33924
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  leafColorA: {r: 0.32505432, g: 0.46226418, b: 0.041429326, a: 0.13333334}
+  leafColorB: {r: 0.49056602, g: 0.108757555, b: 0.44684964, a: 0.5686275}
+  maxSagAngleA: 10
+  maxSagAngleB: 50
+  spinVelocityA: 20
+  spinVelocityB: 25
+  reverseSpinChance: 0.25
 --- !u!1 &1184038116
 GameObject:
   m_ObjectHideFlags: 0
